@@ -15,7 +15,7 @@ Full CSV: [seedance-2-5-pricing.csv](seedance-2-5-pricing.csv)
 
 ## The trap this table exposes
 
-Credit counts are **not comparable across platforms**. Dreamina's 37 credits/sec and Kie's 63 credits/sec look similar, but because their credits are worth different amounts ($0.000184 vs $0.005), the real per-second cost differs by orders of magnitude. Always compare **dollars per second**, never credit counts.
+Credit counts are **not comparable across platforms**. Dreamina's 37 credits/sec and Kie's 63 credits/sec look similar, but because their credits are worth different amounts ($0.000184 vs $0.005), the real per-second cost differs by about 27×. Always compare **dollars per second**, never credit counts.
 
 Also included: Kie's reference-video discount (480p drops 28 → 17, 720p 63 → 38, 1080p 158 → 95 credits/sec) — image-to-video undercuts text-to-video by roughly 40%.
 
