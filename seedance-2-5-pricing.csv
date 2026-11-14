@@ -1,0 +1,5 @@
+platform,pricing_model,rate,credits_per_sec_480p,credits_per_sec_720p,credits_per_sec_1080p,credit_value_usd,cost_10s_720p_usd,source,notes
+Dreamina (ByteDance),Subscription promo,First month $0.29 with 1575 credits; renews $15/mo,unknown,37,unknown,~0.000184,~0.07 (promo effective),https://dreamina.capcut.com/,Promo price - not pay-as-you-go
+OpenRouter (API provider Seed),Per-second API,$0.23112/sec provider rate (from $0.1028/sec floor),n/a,n/a,n/a,n/a,~2.31,https://openrouter.ai/bytedance/seedance-2.5,Billed in seconds not credits
+Kie.ai (reseller beta),Per-second credits,480p 28 / 720p 63 / 1080p 158 per sec (no ref video); 17 / 38 / 95 with ref,28,63,158,0.005,~3.15,https://kie.ai/blog/seedance-2-5-pricing,Beta pricing subject to change
+Higgsfield (reseller),Per-clip,370 credits = $4.23 per clip,unknown,unknown,unknown,varies by plan,~4.23,secondhand - verify at source,Secondhand figure not yet verified
