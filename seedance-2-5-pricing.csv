@@ -1,5 +1,7 @@
 platform,model_version,resolution,billing_unit,list_price,promo_price,credits_per_second,dollar_per_credit,dollars_per_second,per_5s_clip,per_10s_clip,plan_name,plan_price,credits_in_plan,source_url,checked_date
-OpenRouter,2.5,720p,per-second,$0.23112/sec (from $0.1028 floor),,,,,$0.23112,$1.16,$2.31,,,,https://openrouter.ai/bytedance/seedance-2.5,2026-11-15
+Volcano Engine,2.5,720p,per-token,Y70/M tokens (no video input),,,,~$0.21/sec (est.),~$1.05 (est.),~$2.10 (est.),,,,,https://www.volcengine.com/docs/82379/1520757,2026-11-15
+Volcano Engine,2.5-flash,720p,per-token,Y46/M tokens (no video input),,,,~$0.14/sec (est.),~$0.70 (est.),~$1.40 (est.),,,,,https://www.volcengine.com/docs/82379/1520757,2026-11-15
+OpenRouter,2.5,720p,per-second,$0.23112/sec (from $0.1028 floor),,,,,$1.16,$2.31,,,,https://openrouter.ai/bytedance/seedance-2.5,2026-11-15
 Kie.ai,2.5,480p,per-credit,28 credits/sec,,28,$0.005,$0.14,$0.70,$1.40,,,,https://kie.ai/blog/seedance-2-5-pricing,2026-11-15
 Kie.ai,2.5,720p,per-credit,63 credits/sec,,63,$0.005,$0.315,$1.58,$3.15,,,,https://kie.ai/blog/seedance-2-5-pricing,2026-11-15
 Kie.ai,2.5,1080p,per-credit,158 credits/sec,,158,$0.005,$0.79,$3.95,$7.90,,,,https://kie.ai/blog/seedance-2-5-pricing,2026-11-15
@@ -8,15 +10,15 @@ Kie.ai,2.5,720p+ref,per-credit,38 credits/sec,,38,$0.005,$0.19,$0.95,$1.90,,,,ht
 Kie.ai,2.5,1080p+ref,per-credit,95 credits/sec,,95,$0.005,$0.475,$2.38,$4.75,,,,https://kie.ai/blog/seedance-2-5-pricing,2026-11-15
 Higgsfield,2.5,480p,per-credit,30 credits/clip,,,$0.049,,$0.74,$1.47,$49 plan,$49,1000,https://higgsfield.ai/,2026-11-15
 Higgsfield,2.5,720p,per-credit,70 credits/clip,,,$0.049,,$1.72,$3.43,$49 plan,$49,1000,https://higgsfield.ai/,2026-11-15
-WaveSpeed,2.5,480p,per-second,$0.18/sec,,,,,$0.18,$0.90,$1.80,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,720p,per-second,$0.36/sec,$0.324/sec (10% promo),,,,$0.36,$1.80,$3.60,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,1080p,per-second,$0.90/sec,,,,,$0.90,$4.50,$9.00,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,4K,per-second,$1.80/sec,,,,,$1.80,$9.00,$18.00,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,480p+ref,per-second,$0.11/sec,,,,,$0.11,$0.55,$1.10,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,720p+ref,per-second,$0.22/sec,,,,,$0.22,$1.10,$2.20,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,1080p+ref,per-second,$0.55/sec,,,,,$0.55,$2.75,$5.50,,,,https://wavespeed.ai/,2026-11-15
-WaveSpeed,2.5,4K+ref,per-second,$1.10/sec,,,,,$1.10,$5.50,$11.00,,,,https://wavespeed.ai/,2026-11-15
-Dreamina,2.5,720p,per-credit,370 credits/clip ($18 plan),~$0.07/clip (promo month),37,$0.000184 (promo),,$0.07,$4.23 (list) / $0.07 (promo),Promo month,$0.29,1575,https://dreamina.capcut.com/,2026-11-15
-Magnific,2.5,720p,per-clip,$4.40/clip (competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
-OpenArt,2.5,720p,per-clip,$4.55/clip (competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
-Runway,2.5,720p,per-clip,$7.20/clip (competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
+WaveSpeed,2.5,480p,per-second,$0.18/sec,,,,,$0.90,$1.80,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,720p,per-second,$0.36/sec,$0.324/sec (10% promo),,,,$1.80,$3.60,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,1080p,per-second,$0.90/sec,,,,,$4.50,$9.00,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,4K,per-second,$1.80/sec,,,,,$9.00,$18.00,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,480p+ref,per-second,$0.11/sec,,,,,$0.55,$1.10,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,720p+ref,per-second,$0.22/sec,,,,,$1.10,$2.20,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,1080p+ref,per-second,$0.55/sec,,,,,$2.75,$5.50,,,,https://wavespeed.ai/,2026-11-15
+WaveSpeed,2.5,4K+ref,per-second,$1.10/sec,,,,,$5.50,$11.00,,,,https://wavespeed.ai/,2026-11-15
+Dreamina,2.5,720p,per-credit,370 credits/clip (plan price unverified: $15 or $18/mo - pending recheck),~$0.07/10s clip (promo month),37,$0.000184 (promo),,$2.11 (list) / $0.03 (promo),$4.23 (list) / $0.07 (promo),Promo month,$0.29,1575,https://dreamina.capcut.com/,2026-11-15
+Magnific,2.5,720p,per-clip,$4.40/clip (10s 720p competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
+OpenArt,2.5,720p,per-clip,$4.55/clip (10s 720p competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
+Runway,2.5,720p,per-clip,$7.20/clip (10s 720p competitor-reported),,,,,,,,,,,https://higgsfield.ai/,2026-11-15
