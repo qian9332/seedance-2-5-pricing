@@ -17,9 +17,9 @@ Retries count: if you discard 2 of 3 attempts, you paid for 3. Budget for iterat
 | Volcano Engine (official API) | ~$2.10 (est.) | ¥70/M tokens; formula-based estimate, billed by API usage; requires account + real-name |
 | OpenRouter (API) | $2.31 | $0.23112/sec provider rate |
 | Kie.ai | $3.15 | 63 credits/sec × $0.005 |
-| Higgsfield | $3.43 | 70 credits × $0.049 ($49 plan) |
+| Higgsfield | $3.43 | 70 credits × $0.049 ($49 monthly plan / 1,000 credits) |
+| Dreamina (ByteDance) | $3.52 (promo ~$0.07) | 370 credits × $0.009524 ($15 renewal / 1,575 credits, confirmed at official page); assumes credits used within the month |
 | WaveSpeed | $3.60 (promo $3.24) | $0.36/sec list, 10% promo |
-| Dreamina (ByteDance) | $4.23 (promo ~$0.07) | 370 credits at plan value; promo month $0.29/1,575 credits |
 | Magnific | $4.40 | competitor-reported |
 | OpenArt | $4.55 | competitor-reported |
 | Runway | $7.20 | competitor-reported |
@@ -37,12 +37,13 @@ Also included: reference-video discounts. Kie drops 480p 28→17, 720p 63→38, 
 1. Every number carries `source_url` and `checked_date`. Rows we couldn't verify at source are marked `competitor-reported`.
 2. List price and promo price are separate columns — promos expire.
 3. Volcano Engine is token-billed: figures are estimates from the official token formula ((input+output duration) × width × height × fps ÷ 1024, ¥70/M tokens for 720p). Actual billing is by API-returned usage.
-4. Dreamina's renewal plan price ($15 vs $18 for the same 1,575 credits) is flagged unverified pending recheck at source.
+4. Dreamina's renewal price is **confirmed $15/month** for 1,575 credits per the official pricing page (dreamina.capcut.com/seedance/seedance-2-5-pricing-2026). The $3.52 figure assumes the 1,575 credits are used within the month — unused credits raise the effective per-credit price.
+5. Higgsfield figures use the $49 monthly plan; their own comparison page shows lower per-second rates under the MAX annual plan with credit discounts — different plan, not an error.
 
 ## Sources
 
 - Volcano Engine (official): https://www.volcengine.com/docs/82379/1520757
-- Dreamina: https://dreamina.capcut.com/
+- Dreamina (official): https://dreamina.capcut.com/seedance/seedance-2-5-pricing-2026
 - OpenRouter: https://openrouter.ai/bytedance/seedance-2.5
 - Kie.ai: https://kie.ai/blog/seedance-2-5-pricing
 - Higgsfield: https://higgsfield.ai/ (cross-platform blog, Oct 2026)
